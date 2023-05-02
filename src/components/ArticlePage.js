@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { makeEmojiList } from "../utils";
 import useDocumentTitle from "../hooks/useDocumentTitle";
-import useQuery from "../hooks/useQuery";
+import useQuery from "../hooks/useQueryAdvanced";
+
 
 function ArticlePage() {
   // fetch data for a post
